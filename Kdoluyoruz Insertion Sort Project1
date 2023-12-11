@@ -1,0 +1,22 @@
+# Veri Yapıları ve Algoritma - Insertion Sort Project1
+
+[22,27,16,2,18,6]  -> Insertion Sort
+
+1-) 22 - 27 - 16 - 2 - 18 - 6
+2-) 16 - 22 - 27 - 2 - 18 - 6
+3-) 2 - 16 - 22 - 27 - 18 - 6
+4-) 2 - 16 - 18 - 22 - 27 - 6
+5-) 2 - 6 - 16 - 18 - 22 -27  (final)
+
+Big-O = O(n^2)
+- Sıralanmış dizide aradığımız sayı olan 18 ortalarda olduğundan avarage case kapsamındadır..
+
+____________________________________________________________________________________________________________________
+
+[7,3,5,8,2,9,4,15,6] -> Selection Sort
+
+ilk 4 aşaması :
+1-) 2-3-5-8-7-9-4-15-6  //1.elemandizideki en küçük elemanla yer değiştirdi.
+2-) 2-3-5-8-7-9-4-15-6  //2.elemandizideki en küçük 2. elemanla yer değiştirecekti fakat 2. en küçük eleman 3 zaten.
+3-) 2-3-4-8-7-9-5-15-6 //3.elemandizideki en küçük 3. elemanla yer değiştirdi
+4-) 2-3-4-5-7-9-8-15-6  //4.elemandizideki en küçük 4. elemanla yer değiştirdi....
